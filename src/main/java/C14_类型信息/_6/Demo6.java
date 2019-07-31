@@ -1,4 +1,4 @@
-package C14_类型信息;
+package C14_类型信息._6;
 
 import java.util.*;
 
@@ -45,8 +45,8 @@ abstract class PetCreater{
 class ForNameCreater extends PetCreater{
     private static List<Class<? extends Pet>> types = new ArrayList<>();
     private static String[] nameList = {
-        "C14_类型信息.Dog",
-        "C14_类型信息.Cat"
+        "C14_类型信息._6.Dog",
+        "C14_类型信息._6.Cat"
     };
     @SuppressWarnings("unchecked")
     public static void load(){
